@@ -1,0 +1,22 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    border: black solid 1px;
+    padding-top: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 6em;
+    width: 40em;
+
+    & button {
+        height: 4em;
+        width: 5em;
+        cursor: pointer;
+    }
+
+    & .selector {
+        display: flex;
+        gap: 10px;
+    }
+}
